@@ -20,7 +20,6 @@ app.get('/', async (req, res) => {
         message: 'All is just fine',
     });
 });
-
 app.post('/', async (req, res) => {
     try {
         const prompt = req.body.prompt;
